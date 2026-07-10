@@ -1,0 +1,15 @@
+{
+  "name": "heysummit-mailpoet-connector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local WordPress environment for the HeySummit Connector for MailPoet.",
+  "scripts": {
+    "build:zip": "bash scripts/build-zip.sh",
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop",
+    "env:destroy": "wp-env destroy"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^11.4.0"
+  }
+}
