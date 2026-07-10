@@ -12,6 +12,12 @@ This WordPress plugin exposes the narrow, authenticated REST contract required t
 
 The plugin does not store HeySummit credentials and does not expose general WordPress or MailPoet administration. Requests authenticate through WordPress Application Passwords and require the dedicated `heysummit_sync_mailpoet` capability. Activation adds a least-privilege **HeySummit Connector** role for the remote connection and also grants the capability to administrators.
 
+## Installation
+
+1. [Download the latest connector ZIP](https://github.com/heysummit/heysummit-mailpoet-connector/releases/latest/download/heysummit-mailpoet-connector.zip).
+2. In WordPress, go to **Plugins > Add New Plugin > Upload Plugin** and upload the ZIP.
+3. Activate the connector alongside MailPoet, then follow the connection steps below.
+
 ## Local development
 
 The repository includes a `wp-env` configuration that installs the current WordPress release, this plugin, and the current MailPoet release.

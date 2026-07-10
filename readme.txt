@@ -33,10 +33,10 @@ No. Subscriber creation and list assignment use MailPoet's default confirmation 
 
 = Does the connector expose other WordPress data? =
 
-No. It only exposes the MailPoet operations required by HeySummit and requires an authenticated WordPress administrator.
+No. It only exposes the MailPoet operations required by HeySummit and requires an authenticated user with the dedicated HeySummit Connector capability.
 
 == Changelog ==
 
 = 0.1.0 =
 
-* Initial private beta.
+* Initial release.
